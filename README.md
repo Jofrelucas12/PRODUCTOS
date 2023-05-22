@@ -11,22 +11,18 @@ Para clonar el proyecto utilizar el comando:
 git clone https://github.com/Jofrelucas12/PRODUCTOS.git
 ```
 ## Perfiles de ejecucion (profiles)
-Por defecto se activa el profile de Spring 'local', configuración pensada para ejecución en la pc de manera local.
-Esta configuración puede modificarse en el archivo 'application.properties'.
-De momento es el unico perfil creado.
+Por defecto, se activa el perfil de Spring 'local', una configuración pensada para la ejecución en la PC de manera local. Esta configuración puede modificarse en el archivo 'application.properties'. De momento, es el único perfil creado.
 
 ## Swagger
-El proyecto expone la interfaz swagger de manera automática.
-En la siguiente tabla se especifica cómo acceder a cada elemento expuesto:
+El proyecto expone la interfaz Swagger de manera automática. En la siguiente tabla se especifica cómo acceder a cada elemento expuesto:
+
 
 |   Recurso  |  URL   |  Ejemplo   |
 |-----|-----|-----|
 | Swagger UI | /swagger-ui.html | http://localhost:8080/swagger-ui.html |
 
 ## H2
-El proyecto cuenta con una base de datos local en memoria. 
-Utiliza H2 como sistema administrador de la base.
-En la siguiente tabla se especifica cómo acceder al sistema:
+El proyecto cuenta con una base de datos local en memoria. Utiliza H2 como sistema administrador de la base. En la siguiente tabla se especifica cómo acceder al sistema:
 
 
 |   Recurso  | URL |  Ejemplo   |
